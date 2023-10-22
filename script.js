@@ -24,7 +24,7 @@ function getPlayerChoice() {
     return null;
   } else { // If string is not empty, capitalize it
     choice = choice[0].toUpperCase() + choice.slice(1).toLowerCase();
-    console.log("You chose " + choice);
+    console.log("You chose " + choice + ".");
     return choice;
   }
 }
